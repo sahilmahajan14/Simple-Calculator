@@ -1,0 +1,22 @@
+def addition(a,b):
+    return a+b
+def subtraction(a,b):
+    return a-b
+def multiplicaion(a,b):
+    return a*b
+def division (a,b):
+    return a/b
+print("Enter your choice: \n1 Add \n2 Sub \n3 Mul \n4 Div")
+choice=int(input("Enter your choice from the above: "))
+input1=int(input("Enter the first number: "))
+input2=int(input("Enter the Second number: "))
+if choice == 1:
+    print("Addition of the given two numbers is:",addition(input1,input2))
+if choice == 2:
+    print("Subtraction of the given two numbers is: ",subtraction(input1,input2))
+if choice == 3:
+    print("Multiplication of the given two numbers is: ",multiplicaion(input1,input2))
+if choice == 4:
+    print("Division of the given two numbers is: ",division(input1,input2))
+else :
+    print("This is not a valid choice number,sorry")
